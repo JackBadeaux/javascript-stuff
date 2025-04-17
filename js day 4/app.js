@@ -28,5 +28,34 @@
 //? console.log(`num === str: this operator is the strict equality operator so it says false because one is a string and one is a number`,num === str);
 
 
+// ! Problem 4
+//* Variables
+//? let billAmount = 65.55;
+//? let tipRate = .20;
+//? let people = 3;
+//* Computations
+//? tipRate = billAmount * tipRate;
+//? billAmount = tipRate + billAmount;
+//? let billAmountall = billAmount / people;
+//* Log
+//? console.log(`Tip: $${tipRate}`);
+//? console.log(`Toal with tip: $${billAmount}`,);
+//? console.log(`Each Person Pays: $${billAmountall}`,);
 
+//! Problems 5
+//* Variables
+//? let price = 23;
+//? let taxRate = .075;
+//* Computations
+//? price = price + (price * taxRate);
+//? console.log(price.toFixed(2));
 
+// ! Problem 6
+//? let password = prompt(`Enter New Password:`);
+//? console.log(password.length);
+//? if (password.length >= 8) {
+//?     console.log(`Good Length`);
+//? } else
+//? {
+//?     console.log(`Bad Length`); 
+//? }
