@@ -65,17 +65,17 @@
    
 //? }
 //! Problem 6
-let weightKg= 80; // in kilograms
-let heightM = 1.75; // in meters
-let bmi = weightKg / (heightM * heightM);
-let Category;
-if (bmi < 18.5) {
-  Category = "Underweight";
-} else if (bmi < 25) {
-  Category = "Normal weight";
-} else if (bmi < 30) {
-  Category = "Overweight";
-} else {
-  Category = "Obese";
-}
-console.log(`BMI: ${bmi.toFixed(1)}`,`Category : ${Category}`);
+//? let weightKg= 80; // in kilograms
+//? let heightM = 1.75; // in meters
+//? let bmi = weightKg / (heightM * heightM);
+//? let Category;
+//? if (bmi < 18.5) {
+//?   Category = "Underweight";
+//? } else if (bmi < 25) {
+//?   Category = "Normal weight";
+//? } else if (bmi < 30) {
+//?   Category = "Overweight";
+//? } else {
+//?   Category = "Obese";
+//? }
+//? console.log(`BMI: ${bmi.toFixed(1)}`,`Category : ${Category}`);
