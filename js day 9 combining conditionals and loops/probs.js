@@ -20,16 +20,13 @@ const start = 1
 const end = 500
 for (let i = start; i <= end; i++) {
     let isPrime = true;
-    
     for (let j = 2; j < i; j++) {
-       
-        if (i % j === 0) {
-            isPrime = false;
+        if (i % j === 0){
+            isPrime=false
             break;
         }
-        if (isPrime) {
-            console.log(i); 
-        }
     }
-
+    if (isPrime && i > 1) {
+        console.log(i);
     }
+}
