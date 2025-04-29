@@ -1,7 +1,7 @@
 //! Prob 1
-//? for (let numbers = 1; numbers <= 10; numbers++) {
-//? console.log(`Numbers: ${numbers}`);
-//? }
+//  for (let numbers = 1; numbers <= 10; numbers++) {
+//  console.log(`Numbers: ${numbers}`);
+//  }
 
 //! Prob 2
 //? let names = [`John`,`Bob`,`Frank`,`Dennis`]
