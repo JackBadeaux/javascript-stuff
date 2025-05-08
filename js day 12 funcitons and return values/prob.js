@@ -19,18 +19,39 @@
 // }
 // console.log(calculateCircleArea(10));
 // ! Prob 4
+// function convertCurrency(amountUSD, toCurrency = "EUR") {
+//     const rates = {
+//         EUR: 0.85,
+//         GBP: 0.75,
+//         JPY: 110
+//     };
+//     if (!rates[toCurrency]) {
+//         return "Unsupported currency";
+//     }
+//     let converted = amountUSD * rates[toCurrency];
+//     return converted.toFixed(2);
+// }
+// console.log(convertCurrency(40));
+// console.log(convertCurrency(50,`JPY`));
+// ! Prob 5
+// function swap(a,b) {
+//     return [b,a]
+// }
+// console.log(swap(`y`,`x`));
+// ! Prob 6
+// function mergeUnique(arr1,arr2) {
+//     let uniqueArr = [];
+//     let arrCombined = arr1.concat(arr2)
+//     for (let index = 0; index < arrCombined.length; index++) {
+//         if (!uniqueArr.includes(arrCombined[index])) {
+//             uniqueArr.push(arrCombined[index]);
+//         }
+ 
+//     }
+//     return uniqueArr
+// }
+// console.log(mergeUnique([1, 2, 3], [2, 3, 4]));
 
-function convertCurrency(amountUSD, toCurrency = "EUR") {
-    const rates = {
-        EUR: 0.85,
-        GBP: 0.75,
-        JPY: 110
-    };
-    if (!rates[toCurrency]) {
-        return "Unsupported currency";
-    }
-    let converted = amountUSD * rates[toCurrency];
-    return converted.toFixed(2);
-}
-console.log(convertCurrency(40,`AUD`));
+
+
 
