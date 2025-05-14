@@ -27,13 +27,14 @@
 //? }
 
 //! Problem 3
-let age = 65;
-console.log(age);
+//? let age = 65;
+//? console.log(age);
 
-if (age >=65) {
-    console.log(`eligible for senior citizen discount`);
-    
-} else if (age < 65) {
-    console.log(`not eligible for senior citizen discount`);
-    
-}
+//? if (age >=65) {
+//?     console.log(`eligible for senior citizen discount`);
+   
+//? } else if (age < 65) {
+//?     console.log(`not eligible for senior citizen discount`);
+  
+//? }
+
