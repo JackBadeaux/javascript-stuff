@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js day 22 dom</title>
+</head>
+<body>
+<div class="tabs">
+  <button class="tabBtn" data-tab="tab1">Tab 1</button>
+  <button class="tabBtn" data-tab="tab2">Tab 2</button>
+  <button class="tabBtn" data-tab="tab3">Tab 3</button>
+</div>
+
+<div id="tab1" class="tabContent">Content for Tab 1</div>
+<div id="tab2" class="tabContent hidden">Content for Tab 2</div>
+<div id="tab3" class="tabContent hidden">Content for Tab 3</div>
+
+<style>
+  .hidden {
+    display: none;
+  }
+  .active {
+    background-color: #ccc;
+  }
+</style>
+<script src="app.js"></script>
+</body>
+</html>
